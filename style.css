@@ -1,0 +1,245 @@
+/* GENERAL */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.main{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url("images/arboles.jpg"), no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+::placeholder{
+	color: #fff;
+	font-family: Arial;
+}
+
+/* HEADER */
+.header{
+	display: flex;
+	width: 100%;
+	padding: 20px 80px;
+	justify-content: space-around;
+}
+
+.logoBox{
+	width: 250px;
+	height: 100px;
+}
+
+.logo{
+	color: #ff7200;
+	font-size: 55px;
+	font-family: Arial;
+}
+
+.menu{
+	padding-top: 25px;
+	width: 800px;
+	height: 100px;
+	display: flex;
+	margin-left: 180px;
+}
+
+.menu li{
+	list-style: none;
+	margin-left: 40px;
+	padding-left: 30px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+	transition: .4s ease-in-out;
+}
+
+.menu li a:hover{
+	color: #ff7200;
+}
+
+.header .search{
+	display: flex;
+	padding-top: 8px;
+	margin-left: 100px;
+}
+
+.header .search .srch{
+	width: 200px;
+	height: 50px;
+	padding: 10px;
+	color: #fff;
+	font-family: "Time New Roman";
+	font-size: 17px;
+	background: transparent;
+	border: 2px solid #ff7200;
+	border-right: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	outline: none;
+}
+
+.header .search a{
+	text-decoration: none;
+	width: 100px;
+	height: 50px;
+}
+
+.header .search .btn{
+	width: 100px;
+	height: 50px;
+	background: #ff7200;
+	color: #fff;
+	font-size: 18px;
+	border: 2px solid #ff7200;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	cursor: pointer;
+}
+
+/* CONTENT */
+.content{
+	width: 85%;
+	height: auto;
+	padding: 150px 102px;
+}
+
+.content h1{
+	font-size: 70px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.content span{
+	color: #ff7200;
+	font-size: 75px;
+}
+
+.content .par{
+ 	color: #fff;
+ 	font-size: 18px;
+ 	font-family: Arial;
+ 	line-height: 25px;
+}
+
+.content .btn2{
+	width: 150px;
+	height: 50px;
+	color: #000;
+	background: #ff7200;
+	border: 2px solid #ff7200;
+	outline: none;
+	margin-top: 30px;
+	border-radius: 10px;
+	font-size: 18px;
+	transition: .4s ease;
+	cursor: pointer;
+}
+
+.content .btn2:hover{
+	background: #fff;
+	border: 2px solid #fff;
+}
+
+/* FORM */
+.form{
+	width: 350px;
+	height: 450px;
+	background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+	border-radius: 10px;
+	position: absolute;
+	top: 250px;
+	right: 0;
+	margin-right: 102px;
+	padding: 25px;
+}
+
+.form h2{
+	width: 80%;
+	padding: 5px 10px;
+	margin: 7px auto;
+	background: #fff;
+	border-radius: 10px;
+	color: #ff7200;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.form input{
+	width: 100%;
+	height: 35px;
+	margin-top: 20px;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #ff7200;
+	outline: none;
+	color: #fff;
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.form .login{
+	display: block;
+	width: 85%;
+	height: 40px;
+	margin: 40px auto;
+	background: #ff7200;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .4s ease;
+}
+
+.form .login a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	transition: .4s ease;
+}
+
+.form .login:hover{
+	background: #fff;
+}
+
+.form .link{
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	font-family: Arial;
+}
+
+.form .link a{
+	text-decoration: none;
+	color: #ff7200;
+}
+
+.form .pRedes{
+	color: #fff;
+	text-align: center;
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.form .iconos a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.form .iconos ion-icon{
+	color: #fff;
+	font-size: 40px;
+	margin: 8px;
+	transition: .3s ease;
+}
+
+.form .iconos ion-icon:hover{
+	color: #ff7200;
+}
